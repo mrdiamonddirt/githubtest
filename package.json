@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mrdiamonddirt/githubtest/issues"
   },
-  "homepage": "https://github.com/mrdiamonddirt/githubtest#readme"
+  "homepage": "https://github.com/mrdiamonddirt/githubtest#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
 }
