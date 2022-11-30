@@ -1,4 +1,3 @@
-/* eslint-disable require-jsdoc */
 const name = 'rowan';
 const age = 34;
 
