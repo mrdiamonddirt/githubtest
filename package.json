@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/mrdiamonddirt/githubtest#readme",
   "devDependencies": {
-    "eslint": "^8.28.0"
+    "eslint": "^8.28.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.31.11"
   }
 }
