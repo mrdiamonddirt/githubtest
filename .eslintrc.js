@@ -1,19 +1,23 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-  },
-  extends: ["plugin:react/recommended", "google", "prettier"],
-  overrides: [],
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-  },
-  plugins: ["react"],
-  settings: {
-    react: {
-      version: "latest",
-    },
-  },
-  rules: {},
+	env: {
+		browser: true,
+		es2021: true,
+	},
+	extends: ['plugin:react/recommended', 'google', 'prettier'],
+	overrides: [],
+	parserOptions: {
+		ecmaVersion: 'latest',
+		sourceType: 'module',
+	},
+	plugins: ['react'],
+	settings: {
+		react: {
+			version: 'latest',
+		},
+	},
+	rules: {
+		'require-jsdoc': 'off',
+		'react/react-in-jsx-scope': 'off',
+	},
 };
+
